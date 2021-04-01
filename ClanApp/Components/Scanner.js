@@ -106,7 +106,7 @@ const Scanner = () => {
                 onRead={onSuccess}
                 topContent={
                   <Text style={styles.centerText}>
-                    Scan your QRCode!
+                    Scan your QRCode!!
                   </Text>
                 }
                 // bottomContent={
