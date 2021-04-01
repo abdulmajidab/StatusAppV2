@@ -109,11 +109,11 @@ const Scanner = () => {
                     Scan your QRCode!
                   </Text>
                 }
-                bottomContent={
-                  <TouchableOpacity style={styles.buttonTouchable} onPress={() => setScan(false)}>
-                    <Text style={styles.buttonText}>Cancel Scan</Text>
-                  </TouchableOpacity>
-                }
+                // bottomContent={
+                //   <TouchableOpacity style={styles.buttonTouchable} onPress={() => setScan(false)}>
+                //     <Text style={styles.buttonText}>Cancel Scan</Text>
+                //   </TouchableOpacity>
+                // }
               />
             </View>
           }
